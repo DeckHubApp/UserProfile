@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="11.1.0" />
+    <PackageReference Include="MessagePack" Version="1.7.3.4" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Redis" Version="0.4.0-preview2-30571-final" />
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="3.0.0-preview-02" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0-preview2-final" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.0-preview2-final" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.0-preview2-26406-04" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Slidable.UserProfile.Models\Slidable.UserProfile.Models.csproj" />
+  </ItemGroup>
+</Project>
