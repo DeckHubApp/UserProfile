@@ -29,7 +29,7 @@ bld/
 .idea/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 
-src/Slidable.UserProfile/wwwroot/lib/
+src/DeckHub.UserProfile/wwwroot/lib/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
